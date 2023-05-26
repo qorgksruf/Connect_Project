@@ -1,0 +1,137 @@
+.searchBox{
+        display: flex;
+        align-items: center;
+    }
+.searchBox button{
+    border-radius: 20px;
+    border-style: none;
+    padding: 10px;
+    color: white;
+    background-color: #1976d2;
+    margin-left: 5px;
+}
+.writeBtn{
+    border-radius: 20px;
+    border-style: none;
+    padding: 10px;
+    color: white;
+    background-color: #1976d2;
+    margin-left: 5px;
+}
+.viewHeader{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px 20px 0px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.viewTitle{
+    font-weight: bold;
+    font-size: 30px;
+    color: #548235;
+}
+.viewHeaderRight{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.viewHeaderView{margin-left:15px;}
+
+.viewContent{
+    height: 400px;
+    margin-bottom: 20px;
+}
+.viewContentContent{
+    font-size: 20px;
+}
+.viewBtnBox{
+    border-bottom: 1px solid #e8e8e8;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 20px 20px 0px;
+}
+.onUpdate{
+    margin-left:20px;
+}
+.viewBtn{
+    padding: 15px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #548235;
+    font-weight: bold;
+    color: white;
+}
+.reply{
+     border-bottom: 1px solid #e8e8e8;
+     padding: 10px 0px 14px 0px;
+}
+.replyHeader{
+     display:flex;
+     justify-content:space-between;
+     align-items:center;
+ }
+.replyInput{
+    display: flex;
+    margin: 20px 0px;
+    padding-bottom: 20px;
+}
+.replyContentArea{
+    width: 100%;
+}
+.replyContent{
+    width: 100%;
+    height: 30px;
+    resize: none;
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid #e8e8e8;
+}
+.viewReplyBtn{
+    background-color: #548235;
+    border-radius: 20px;
+    border-style: none;
+    color: #fff;
+    font-weight: 700;
+    padding: 13px;
+    width: 96%;
+    margin-left: 10px;
+}
+
+.replyWriter{
+    font-weight:bold;
+    font-size:15px;
+}
+.replyUpDel{
+    font-size: 25px;
+    margin-right: 10px;
+    color:#8d8b8b;
+    font-weight:bold;
+    border-style: none;
+    background-color:white;
+}
+.replyDetail{
+    margin: 10px 0;
+    font-size: 20px;
+}
+.upDelBox{
+    display: flex;
+    align-items: center;
+}
+
+.replyUpdateContent{
+    height:28px;
+}
+.replyUpDelBtn{
+    background-color: #548235;
+    border-radius: 20px;
+    border-style: none;
+    color: #fff;
+    margin-left: 5px;
+    padding:5px;
+}
+
+.replyDate{
+    margin: 5px 0;
+    font-size: 12px;
+}

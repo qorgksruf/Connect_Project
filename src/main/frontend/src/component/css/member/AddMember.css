@@ -1,0 +1,68 @@
+.addMember-wrap{
+    margin-top: 100px;
+}
+
+.addMember-wrap * {
+    margin: 0px; padding: 0px;
+}
+
+
+
+.addMember-itemBox{
+    width: 60%;
+    margin : 50px auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input_rank{
+    width: 48%;
+}
+.input_name{
+    width: 48%;
+}
+.input_id{
+    width: 48%
+}
+.input_pwd{
+    width: 48%
+}
+.input_phone, .input_email {
+    width : 100%;
+}
+
+.input_profile{
+    width: 100%;
+}
+
+.preview{
+    width: 180px; height: 200px;
+    border: 1px solid #bcbcbc;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size : 12px;
+    color : #bcbcbc;
+}
+.preview img {
+    width: 100%;
+}
+.input_btn_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btnBox{
+    display:flex
+}
+.btnBox Button {
+    width: 30%;
+}
+
+.btnBox Button:nth-child(1) {
+    margin-right : 10px;
+}
+

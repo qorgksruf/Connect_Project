@@ -1,0 +1,40 @@
+.imgBox{
+    margin: 30px auto;
+    width: 200px;
+    height: 200px;
+}
+
+.profileImg{
+    width: 200px; height: 200px;
+    border-radius: 50%;
+}
+
+.profile_info{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+    align-items: center;
+}
+
+.part_name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.member_name{
+    font-size: 15px;
+}
+
+.allbtn{
+    margin: 30px 0px 0px 0px !important;
+    display : block;
+}
+
+.tree-title{
+    font-weight: bold !important;
+}
+
+.tree-item{
+    font-size: 15px !important;
+}

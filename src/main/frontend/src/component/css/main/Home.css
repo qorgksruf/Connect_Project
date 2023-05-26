@@ -1,0 +1,63 @@
+.main-top-box{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.approval-state-box{
+    display: flex;
+}
+
+.state-box-item{
+    border-right: 1px solid #e8e8e8;
+    padding: 0px 19px;
+    margin : 20px 0px;
+}
+
+.state-box-item-end{
+    margin : 20px 0px;
+    padding: 0px 19px;
+}
+
+.main-box-title{
+    margin: 20px 20px;
+}
+
+.approval-text{
+    font-size : 17px;
+}
+
+.main-middle-box{
+    width: 100%;
+    display : flex;
+    margin: 40px 0px;
+}
+
+.schedule-box{
+    width:45%;
+    margin: 1%;
+}
+
+.calander-box{
+    width: 45%;
+    margin: 1%;
+}
+
+.approval-value{
+    text-align : center;
+}
+
+.today-date{
+    margin-left : 20px;
+    margin-bottom : 20px;
+}
+
+.leave-time{
+    font-size : 25px;
+    font-weight : bold;
+}
+
+.leave-text{
+    margin-left: 20px;
+}
+
